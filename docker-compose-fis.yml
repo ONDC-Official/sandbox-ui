@@ -1,6 +1,6 @@
 services:
   app:
-    image: 577638354424.dkr.ecr.ap-south-1.amazonaws.com/fis-sandbox-ui:latest
+    image: 577638354424.dkr.ecr.ap-south-1.amazonaws.com/fis-sandbox-ui
     container_name: fis_sanbox_ui
     ports:
       - "${PORT:-3000}:${PORT:-3000}"
